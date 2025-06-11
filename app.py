@@ -1,5 +1,15 @@
 import streamlit as st
 import joblib
+import os
+
+try:
+    print("Loading model file...")
+    print("File exists?", os.path.exists("similarity.joblib"))
+    similarity = joblib.load("similarity.joblib")
+    print("Model loaded successfully.")
+except Exception as e:
+    print("Model loading error:", e)
+
 
 def recommend(movie):
     movie_index = movies_list[movies_list['title'] == movie].index[0]
@@ -14,7 +24,7 @@ def recommend(movie):
     return recommended_movies
 
 movies_list = joblib.load('movies.joblib')
-similarity = joblib.load('similarity.joblib')
+# similarity = joblib.load('similarity.joblib')
 
 st.markdown("""
     <div style='text-align: center;'>
