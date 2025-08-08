@@ -6,7 +6,7 @@ A content-based movie recommendation system built using Python and Streamlit tha
 
 ## 🚀 Demo
 
-🖥️ Live App: *[Insert deployment link if available]*  
+🖥️ Live App: https://movie-recommender-system-b885.onrender.com  
 📂 GitHub: https://github.com/devmurarijay13/movie-recommender-system
 
 ---
