@@ -41,7 +41,7 @@ This project uses a content-based recommendation algorithm that computes the **c
 
 ## 📁 Project Structure 
 
-movie-recommender-system/ 
+movie-recommender-system/ <br>
 ├── app.py # Streamlit frontend <br>
 ├── movies.joblib # Movie metadata (title, poster, etc.) <br>
 ├── similarity.joblib # Precomputed cosine similarity matrix <br>
