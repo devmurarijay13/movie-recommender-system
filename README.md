@@ -39,7 +39,7 @@ This project uses a content-based recommendation algorithm that computes the **c
 
 ---
 
-## 📁 Project Structure ```
+## 📁 Project Structure 
 
 movie-recommender-system/ 
 ├── app.py # Streamlit frontend 
@@ -47,9 +47,7 @@ movie-recommender-system/
 ├── similarity.joblib # Precomputed cosine similarity matrix
 ├── recommendation system.ipynb # Notebook with data processing & model 
 ├── requirements.txt # Python dependencies 
-└── README.md # Project documentation ``` </pre>
-
----
+└── README.md # Project documentation 
 
 ## 🧾 Dataset
 
